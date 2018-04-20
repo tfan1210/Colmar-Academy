@@ -563,3 +563,43 @@ nav {
     background-color: white;
   }
 }
+
+@media only screen and (max-width: 470px) {
+  .learning-container {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .whole-course-container {
+    flex-flow: column;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .course-container {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 0.5rem 0;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .course-container img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .course-text {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .course-container p {
+    display: none;
+  }
+}

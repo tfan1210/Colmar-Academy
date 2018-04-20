@@ -603,3 +603,40 @@ nav {
     display: none;
   }
 }
+
+@media only screen and (max-width: 470px) {
+  .left-thesis-box {
+    width: 100%;
+    padding: 0 0 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  video {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .thesis-container h3, .thesis-container p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .right-thesis-box {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .footer .right-footer {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .footer h5 {
+    font-size: 12px;
+  }
+}

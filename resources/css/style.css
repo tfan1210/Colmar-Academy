@@ -77,7 +77,45 @@ div {
   display: block;
 }
 
+header {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  height: 4rem;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+}
 
+@media only screen and (max-width: 470px) {
+  .mobile-header img {
+    display: flex;
+    width: auto;
+    height: 90%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .header img {
+    display: none;
+  }
+  .header h1 {
+    display: none;
+  }
+  .header ul li {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .header {
+    max-width: 100%;
+  }
+}
+
+.mobile-header {
+  display: none;
+}
 
 .header {
   display: flex;
@@ -85,6 +123,7 @@ div {
   font-family: 'Roboto', sans-serif;
   padding-left: 24px;
   padding-right: 24px;
+  max-width: 1439px;
 }
 
 .header h1 {
@@ -446,7 +485,7 @@ video {
 }
 
 nav {
-  display: inline-flex;
+  display: flex;
 }
 
 .footer nav {

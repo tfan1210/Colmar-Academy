@@ -383,6 +383,7 @@ video {
   line-height: 1.35;
   padding: 0.5rem 0.5rem 0.5rem 0;
   margin-bottom: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .right-thesis-box {
@@ -426,4 +427,36 @@ video {
   line-height: 1.35;
   padding: 0.5rem 0.5rem 0.5rem 0;
   font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+  background-color: white;
+  border-top: 1px solid #01161E;
+  display: flex;
+  justify-content: space-between;
+  top: 4rem;
+  width: 100%;
+}
+
+.footer h5 {
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+nav {
+  display: inline-flex;
+}
+
+.footer nav {
+  padding-right: 3%;
+  align-self: auto;
+  padding-top: 1rem;
+}
+
+.footer span {
+  font-size: 0.8rem;
+  color: black;
+  padding-left: 1rem;
 }

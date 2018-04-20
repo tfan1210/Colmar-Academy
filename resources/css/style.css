@@ -477,11 +477,14 @@ nav {
 @media only screen and (max-width: 470px) {
   .mobile-header {
     display: flex;
+    width: 100%;
+    justify-content: space-around;
   }
   .mobile-header img {
-    display: flex;
+    display: inline-flex;
     width: auto;
     height: 90%;
+
   }
 }
 
@@ -500,5 +503,63 @@ nav {
 @media only screen and (max-width: 470px) {
   .header {
     max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .banner-container img {
+    width: 100%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .banner-container .banner-text {
+    width: 100%;
+    padding: 0 1rem;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .start-btn a {
+    width: 100%;
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .left-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .right-container, content-container .right-text-container {
+    width: 100%;
+    background-color: white;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .content-container {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .content-container img {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .right-container .content-container:last-child {
+    background-color: white;
   }
 }

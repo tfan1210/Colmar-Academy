@@ -287,3 +287,55 @@ div {
 .content-container:last-child {
   background-color: #EEF9ED;
 }
+
+.learning-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  background-color: #EEF9ED;
+}
+
+.learning-container h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+
+.whole-course-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.course-container {
+  width: 30%;
+  height: auto;
+  margin: 0 0.5rem 1rem 0.5rem;
+  background-color: #ADBED3;
+}
+
+.course-container img {
+  width: 100%;
+}
+
+.course-text {
+  padding: 1rem 0 0 1rem;
+  margin: 1.5rem auto;
+}
+
+.course-text h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.course-text p {
+  line-height: 1.35;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}

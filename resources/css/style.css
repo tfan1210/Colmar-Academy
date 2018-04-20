@@ -339,3 +339,91 @@ div {
   line-height: 1.35;
   padding: 0.5rem 0.5rem 0.5rem 0;
 }
+
+.thesis-container {
+  width: 0 auto;
+}
+
+.thesis-container h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+
+.thesis-multi-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.left-thesis-box {
+  padding: 1rem 1rem 1.5rem 1.5rem;
+  width: 60%;
+}
+
+.left-thesis-box video {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+video {
+  object-fit: contain;
+}
+
+.left-thesis-box h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.left-thesis-box p {
+  line-height: 1.35;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  margin-bottom: 1.5rem;
+}
+
+.right-thesis-box {
+  display: flex;
+  flex-flow: column;
+  vertical-align: top;
+  margin-top: 1rem;
+  width: 35%;
+}
+
+.content-box:first-child {
+  background-color: #EEF9ED;
+}
+
+.content-box img {
+  width: 35%;
+  margin: 3.5%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.content-box .side-text {
+  width: 56%;
+}
+
+.side-text {
+  display: inline-flex;
+  flex-flow: column;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.side-text h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.side-text p {
+  line-height: 1.35;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  font-family: 'Open Sans', sans-serif;
+}
